@@ -1,1 +1,13 @@
 #Descripcion incial
+# Archivo de metadatos de las muestras para el análisis RNA-Seq
+# -----------------------------------------------------------
+# La información incluye el ID de la muestra, la condición experimental
+# (Control o Tumor) y la réplica biológica.
+
+ID_Muestra      Condición       Replicado
+Sample_C_R1     Control         1
+Sample_C_R2     Control         2
+Sample_C_R3     Control         3
+Sample_T_R1     Tumor           1
+Sample_T_R2     Tumor           2
+Sample_T_R3     Tumor           3
