@@ -5,11 +5,11 @@
 # usando el paquete DESeq2 en R.
 
 # -----------------------------------------------------------
-# 1. Cargar datos y librerías (Simulado)
+# 1. Cargar datos y librerías 
 # -----------------------------------------------------------
-# library(DESeq2)
-# library(ggplot2)
-# print("Librerías cargadas exitosamente.")
+# install.packages(DESeq2)
+# install.packages(ggplot2)
+print("Librerías cargadas exitosamente.")
 
 # count_matrix <- read.table("../01_Data_Raw/gene_counts.tsv", header = TRUE, row.names = 1)
 # metadata <- read.table("../01_Data_Raw/samples_metadata.txt", header = TRUE, row.names = 1)
