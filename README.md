@@ -1,4 +1,4 @@
-# Trabajo Grupal Bioinformtica Grupo #20
+# Trabajo Grupal Bioinformatica Grupo #20
 RNA/seq
 RNA/Sequencing (RNA/seq)
 
