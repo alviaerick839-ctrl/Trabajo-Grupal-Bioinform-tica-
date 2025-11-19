@@ -1,0 +1,21 @@
+CONTROL DE CALIDAD EN RNA-SEQ CON FASTQC
+
+FastQC es una herramienta que analiza cada archivo FASTQ y genera un reporte gr�fico.
+Los principales parametros evaluados son:
+
+Calidad por base (Per base sequence quality)
+Mide la calidad de cada nucleotido a lo largo de la lectura.
+* Valores > 30 (Q30) indican muy buena calidad.
+* Caidas al final pueden sugerir degradacion o errores del secuenciador.
+
+Composicion de bases (Per base sequence content)
+Evalua la proporcion de A, T, G, C.
+Valores muy irregulares pueden indicar contaminacion o sesgo.
+
+Nivel de duplicacion (Sequence duplication levels)
+Un nivel elevado puede indicar:
+* Sobre-amplificacion por PCR
+* Baja complejidad en la libreria
+
+Contenido GC (GC content)
+Detecta desviaciones respecto a lo esperado para la especie.
